@@ -30,7 +30,7 @@ public class Test {
         System.out.println("원의 높이 입력  : ");
         double height = scan.nextDouble();
 
-        System.out.println("원의 부피 값은 : " + diameter/2 * height);
+        System.out.println("원의 부피 값은 : " + (4/3)*Math.PI*Math.pow((diameter/2),3));
 
 
     }
